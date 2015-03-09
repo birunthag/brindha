@@ -124,4 +124,54 @@ class AllofhomeController extends Controller {
 	{
 		return view('web.starter');
 	}
+
+	public function index_boxed()
+	{
+		return view('web.index_boxed');	
+	}
+
+	public function blog()
+	{
+		return view('web.blog');	
+	}
+
+	public function blogleft()
+	{
+		return view('web.blogleft');	
+	}
+
+	public function blogtimeline()
+	{
+		return view('web.blogtimeline');	
+	}
+
+	public function bloggrid()
+	{
+		return view('web.blogtimeline');	
+	}
+
+	public function blogpost()
+	{
+		return view('web.blogpost');	
+	}
+
+	public function blogvdo()
+	{
+		return view('web.blogpostvdo');	
+	}
+
+	public function blogpostslide()
+	{
+		return view('web.blogpostslide');	
+	}
+
+	public function blogpostaudio()
+	{
+		return view('web.blogpostaudio');	
+	}
+
+	public function sliderdefault()
+	{
+		return view('web.slider_default');	
+	}
 }

@@ -58,7 +58,10 @@
   </head>
   
   <!-- ======== @Region: body ======== -->
-  <body class="page page-index">
+    @section('body')
+    <body class="page page-index">
+    @show
+    
     <a href="#content" class="sr-only">Skip to content</a> 
     
     <!-- ======== @Region: #navigation ======== -->

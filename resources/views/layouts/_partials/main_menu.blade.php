@@ -76,7 +76,7 @@
                 <a role="menuitem" href="{{ URL::route('custumers') }}" tabindex="-1" class="menu-item">Homepage Static Banner</a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="{{ URL::route('custumers') }}" tabindex="-1" class="menu-item">Homepage Boxed</a>
+                <a role="menuitem" href="{{ URL::route('index_boxed') }}" tabindex="-1" class="menu-item">Homepage Boxed</a>
             </li>
             <li role="presentation">
                 <a role="menuitem" href="{{ URL::route('custumers') }}" tabindex="-1" class="menu-item">404 Error</a>
@@ -86,7 +86,7 @@
   
     <li class="dropdown">
         <a 
-            href="blog.htm" 
+            href="{{ URL::route('blog') }}" 
             class="dropdown-toggle" 
             id="blog-drop" 
             data-toggle="dropdown" 
@@ -94,28 +94,28 @@
         <!-- Dropdown Menu -->
         <ul class="dropdown-menu" role="menu" aria-labelledby="blog-drop">
             <li role="presentation">
-                <a role="menuitem" href="blog.htm" tabindex="-1" class="menu-item">Blog List Right Sidebar <i class="new-tag">Updated!</i></a>
+                <a role="menuitem" href="{{ URL::route('blog') }}" tabindex="-1" class="menu-item">Blog List Right Sidebar <i class="new-tag">Updated!</i></a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="blog-leftbar.htm" tabindex="-1" class="menu-item">Blog List Left Sidebar <i class="new-tag">Updated!</i></a>
+                <a role="menuitem" href="{{ URL::route('blogleft') }}" tabindex="-1" class="menu-item">Blog List Left Sidebar <i class="new-tag">Updated!</i></a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="blog-timeline.htm" tabindex="-1" class="menu-item">Blog List Timeline <i class="new-tag">New!</i></a>
+                <a role="menuitem" href="{{ URL::route('blogtimeline') }}" tabindex="-1" class="menu-item">Blog List Timeline <i class="new-tag">New!</i></a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="blog-grid.htm" tabindex="-1" class="menu-item">Blog List Grid <i class="new-tag">New!</i></a>
+                <a role="menuitem" href="{{ URL::route('bloggrid') }}" tabindex="-1" class="menu-item">Blog List Grid <i class="new-tag">New!</i></a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="blog-post.htm" tabindex="-1" class="menu-item">Blog Post <i class="new-tag">Updated!</i></a>
+                <a role="menuitem" href="{{ URL::route('blogpost') }}" tabindex="-1" class="menu-item">Blog Post <i class="new-tag">Updated!</i></a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="blog-post-video.htm" tabindex="-1" class="menu-item">Blog Post With Video <i class="new-tag">New!</i></a>
+                <a role="menuitem" href="{{ URL::route('blogvdo') }}" tabindex="-1" class="menu-item">Blog Post With Video <i class="new-tag">New!</i></a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="blog-post-slideshow.htm" tabindex="-1" class="menu-item">Blog Post With Slideshow <i class="new-tag">New!</i></a>
+                <a role="menuitem" href="{{ URL::route('blogpostslide') }}" tabindex="-1" class="menu-item">Blog Post With Slideshow <i class="new-tag">New!</i></a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="blog-post-audio.htm" tabindex="-1" class="menu-item">Blog Post With Audio Clip <i class="new-tag">New!</i></a>
+                <a role="menuitem" href="{{ URL::route('blogpostaudio') }}" tabindex="-1" class="menu-item">Blog Post With Audio Clip <i class="new-tag">New!</i></a>
             </li>
         </ul>
     </li>
@@ -133,7 +133,7 @@
             <li role="presentation">
                 <ul class="row list-unstyled" role="menu">
                     <li class="col-md-3" role="presentation">
-                        <a role="menuitem" href="features.htm" class="img-link">
+                        <a role="menuitem" href="{{ URL::route('features') }}" class="img-link">
                             <img src="{{ asset('img/features/feature-1.png' )}} " alt="Feature 1" />
                         </a>
                         <a role="menuitem" href="features.htm" tabindex="-1" class="menu-item">
@@ -142,7 +142,7 @@
                         <span>Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
                     </li>
                     <li class="col-md-3" role="presentation">
-                        <a role="menuitem" href="features.htm" class="img-link">
+                        <a role="menuitem" href="{{ URL::route('features') }}" class="img-link">
                             <img src="{{ asset('img/features/feature-2.png' )}}" alt="Feature 2" />
                         </a>
                         <a role="menuitem" href="features.htm" tabindex="-1" class="menu-item">
@@ -151,14 +151,14 @@
                         <span>Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
                     </li>
                     <li class="col-md-3" role="presentation">
-                        <a role="menuitem" href="features.htm" class="img-link">
+                        <a role="menuitem" href="{{ URL::route('features') }}" class="img-link">
                             <img src="{{ asset('img/features/feature-3.png' )}}" alt="Feature 3" />
                         </a>
                         <a role="menuitem" href="features.htm" tabindex="-1" class="menu-item"><strong>99% Uptime</strong></a>
                         <span>Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
                     </li>
                     <li class="col-md-3" role="presentation">
-                        <a role="menuitem" href="features.htm" class="img-link">
+                        <a role="menuitem" href="{{ URL::route('features') }}" class="img-link">
                             <img src="{{ asset('img/features/feature-4.png' )}}" alt="Feature 4" />
                         </a>
                         <a role="menuitem" href="features.htm" tabindex="-1" class="menu-item"><strong>Upgrade Assistance</strong></a>
@@ -177,20 +177,20 @@
             data-hover="dropdown">More +</a> 
         <!-- Mega Menu -->
         <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="more-drop">
-            <li class="dropdown dropdown-submenu dropdown-menu-left">
+            <!--<li class="dropdown dropdown-submenu dropdown-menu-left">
                 <a 
                     href="headers.htm" 
                     class="dropdown-toggle" 
                     id="headers-drop" 
                     data-toggle="dropdown" 
                     data-hover="dropdown" 
-                    data-close-others="false">Header Variations</a> 
+                    data-close-others="false">Header Variations</a> -->
                 <!-- Header variations -->
-                <ul class="dropdown-menu" role="menu" aria-labelledby="headers-drop">
+                <!--<ul class="dropdown-menu" role="menu" aria-labelledby="headers-drop">
                     <li role="presentation"><a role="menuitem" href="header-old.htm" tabindex="-1" class="menu-item">Header Old</a></li>
                     <li role="presentation"><a role="menuitem" href="header-old-full.htm" tabindex="-1" class="menu-item">Header Old Full Width</a></li>
-                </ul>
-            </li>
+                </ul> 
+            </li> -->
             <li class="dropdown dropdown-submenu dropdown-menu-left">
                 <a 
                     href="sliders.htm" 
@@ -204,7 +204,7 @@
                     <!--Slider Revolution -->
                     <li role="presentation" class="dropdown-header">Slider Revolution</li>
                     <li role="presentation">
-                        <a role="menuitem" href="slider-revolution-default.htm" tabindex="-1" class="menu-item">Default</a>
+                        <a role="menuitem" href="{{ URL::route('sliderdefault') }}" tabindex="-1" class="menu-item">Default</a>
                         </li>
                     <li role="presentation">
                         <a role="menuitem" href="slider-revolution-full.htm" tabindex="-1" class="menu-item">Full Width</a>

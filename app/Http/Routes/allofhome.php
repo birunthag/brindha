@@ -104,3 +104,54 @@ Route::get('starter', [
 	'as' => 'starter',
 	'uses' => 'AllofhomeController@starter'
 ]);
+
+Route::get('index-boxed', [
+	'as' => 'index_boxed',
+	'uses' => 'AllofhomeController@index_boxed'
+]);
+
+Route::get('blog', [
+	'as' => 'blog',
+	'uses' => 'AllofhomeController@blog'
+]);
+
+Route::get('blogleft', [
+	'as' => 'blogleft',
+	'uses' => 'AllofhomeController@blogleft'
+]);
+
+Route::get('blogtimeline', [
+	'as' => 'blogtimeline',
+	'uses' => 'AllofhomeController@blogtimeline'
+]);
+
+Route::get('bloggrid', [
+	'as' => 'bloggrid',
+	'uses' => 'AllofhomeController@bloggrid'
+]);
+
+Route::get('blogpost', [
+	'as' => 'blogpost',
+	'uses' => 'AllofhomeController@blogpost'
+]);
+
+Route::get('blogvdo', [
+	'as' => 'blogvdo',
+	'uses' => 'AllofhomeController@blogvdo'
+]);
+
+Route::get('blogpostslide', [
+	'as' => 'blogpostslide',
+	'uses' => 'AllofhomeController@blogpostslide'
+]);
+
+Route::get('blogpostaudio', [
+	'as' => 'blogpostaudio',
+	'uses' => 'AllofhomeController@blogpostaudio'
+]);
+
+Route::get('sliderdefault', [
+	'as' => 'sliderdefault',
+	'uses' => 'AllofhomeController@sliderdefault'
+]);
+
