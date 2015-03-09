@@ -32,7 +32,83 @@ class AllofhomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('allofhome.home');
+		return view('web.index');
 	}
+
+	public function about()
+	{
+		return view('web.about');
+	}
+
+	public function about_ex()
+	{
+		return view('web.aboutex');
+	}
+
+	public function about_me()
+	{
+		return view('web.aboutme');
+	}
+
+	public function teamlist()
+	{
+		return view('web.teamlist');
+	}
+
+	public function teamgrid()
+	{
+		return view('web.teamgrid');
+	}
+
+	public function teammemb()
+	{
+		return view('web.teammemb');
+	}
+
+	public function contact()
+	{
+		return view('web.contact');
+	}
+	
+	public function pricing()
+	{
+		return view('web.pricing');
+	}
+
+	public function pricing_table()
+	{
+		return view('web.pricing_table');
+	}
+
+	public function timeline()
+	{
+		return view('web.timeline');
+	}
+
+	public function timelineleft()
+	{
+		return view('web.timeleft');
+	}
+
+	public function timelineright()
+	{
+		return view('web.timeright');
+	}
+
+	public function timelinestacked()
+	{
+		return view('web.timelinestacked');
+	}
+
+	public function custumers()
+	{
+		return view('web.custumers');
+	}
+
+	public function features()
+	{
+		return view('web.features');
+	}
+
 
 }

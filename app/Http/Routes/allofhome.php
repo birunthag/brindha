@@ -10,5 +10,82 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/', [
+	'as' => 'index',
+	'uses' => 'AllofhomeController@index'
+]);
 
-Route::get('/', 'AllofhomeController@index');
+Route::get('aboutus', [
+	'as' => 'aboutus_basic',
+	'uses' => 'AllofhomeController@about'
+]);
+
+Route::get('aboutusex', [
+	'as' => 'aboutus_extend',
+	'uses' => 'AllofhomeController@about_ex'
+]);
+
+Route::get('aboutusme', [
+	'as' => 'aboutus_me',
+	'uses' => 'AllofhomeController@about_me'
+]);
+
+Route::get('teamlist', [
+	'as' => 'teamlist',
+	'uses' => 'AllofhomeController@teamlist'
+]);
+
+Route::get('teamgrid', [
+	'as' => 'teamgrid',
+	'uses' => 'AllofhomeController@teamgrid'
+]);
+
+Route::get('teammemb', [
+	'as' => 'teammemb',
+	'uses' => 'AllofhomeController@teammemb'
+]);
+
+Route::get('contactus', [
+	'as' => 'contact',
+	'uses' => 'AllofhomeController@contact'
+]);
+
+Route::get('pricing', [
+	'as' => 'pricing',
+	'uses' => 'AllofhomeController@pricing'
+]);
+
+Route::get('pricing_table', [
+	'as' => 'pricing_table',
+	'uses' => 'AllofhomeController@pricing_table'
+]);
+
+Route::get('timeline', [
+	'as' => 'timeline',
+	'uses' => 'AllofhomeController@timeline'
+]);
+
+Route::get('timelineleft', [
+	'as' => 'timelineleft',
+	'uses' => 'AllofhomeController@timelineleft'
+]);
+
+Route::get('timelineright', [
+	'as' => 'timelineright',
+	'uses' => 'AllofhomeController@timelineright'
+]);
+
+Route::get('timelinestacked', [
+	'as' => 'timelinestacked',
+	'uses' => 'AllofhomeController@timelinestacked'
+]);
+
+Route::get('custumers', [
+	'as' => 'custumers',
+	'uses' => 'AllofhomeController@custumers'
+]);
+
+Route::get('features', [
+	'as' => 'features',
+	'uses' => 'AllofhomeController@features'
+]);
