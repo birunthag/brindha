@@ -64,13 +64,13 @@
             <li>
                 <a href="{{ URL::route('features') }}" class="menu-item">Features/Services</a></li>
             <li role="presentation">
-                <a role="menuitem" href="{{ URL::route('custumers') }}" tabindex="-1" class="menu-item">Login</a>
+                <a role="menuitem" href="{{ URL::route('login') }}" tabindex="-1" class="menu-item">Login</a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="{{ URL::route('custumers') }}" tabindex="-1" class="menu-item">Sign Up</a>
+                <a role="menuitem" href="{{ URL::route('signup') }}" tabindex="-1" class="menu-item">Sign Up</a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="{{ URL::route('custumers') }}" tabindex="-1" class="menu-item">Starter Snippets</a>
+                <a role="menuitem" href="{{ URL::route('starter') }}" tabindex="-1" class="menu-item">Starter Snippets</a>
             </li>
             <li role="presentation">
                 <a role="menuitem" href="{{ URL::route('custumers') }}" tabindex="-1" class="menu-item">Homepage Static Banner</a>

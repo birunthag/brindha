@@ -15,6 +15,16 @@ Route::get('/', [
 	'uses' => 'AllofhomeController@index'
 ]);
 
+Route::get('login', [
+	'as' => 'login',
+	'uses' => 'AllofhomeController@login'
+]);
+
+Route::get('signup', [
+	'as' => 'signup',
+	'uses' => 'AllofhomeController@signup'
+]);
+
 Route::get('aboutus', [
 	'as' => 'aboutus_basic',
 	'uses' => 'AllofhomeController@about'
@@ -88,4 +98,9 @@ Route::get('custumers', [
 Route::get('features', [
 	'as' => 'features',
 	'uses' => 'AllofhomeController@features'
+]);
+
+Route::get('starter', [
+	'as' => 'starter',
+	'uses' => 'AllofhomeController@starter'
 ]);

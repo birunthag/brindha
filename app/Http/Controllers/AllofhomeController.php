@@ -110,5 +110,18 @@ class AllofhomeController extends Controller {
 		return view('web.features');
 	}
 
+	public function login()
+	{
+		return view('web.login');
+	}
 
+	public function signup()
+	{
+		return view('web.signup');
+	}
+
+	public function starter()
+	{
+		return view('web.starter');
+	}
 }
