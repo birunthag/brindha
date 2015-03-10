@@ -45,7 +45,8 @@
     <![endif]-->
     
     <!-- Le fav and touch icons - @todo: fill with your icons or remove -->
-    <link rel="shortcut icon" href="{{ asset('img/icons/favicon.png') }}">
+    <!--<link rel="shortcut icon" href="{{ asset('img/icons/favicon.png') }}"> -->
+    <link rel="shortcut icon" href="{{ asset('img/logo.ico') }}">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('img/icons/114x114.png') }}">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('img/icons/72x72.png') }}">
     <link rel="apple-touch-icon-precomposed" href="{{ asset('img/icons/default.png') }}">
@@ -93,10 +94,11 @@
               <!--branding/logo-->
               <a class="navbar-brand" href="{{ URL::to('/') }}" title="Home">
                 <h1>
-                  <span>App</span>Strap<span>.</span>
+                  <!-- <span>AllOf</span>Home<span>.</span> -->
+                  <img src="img/logo.png">
                 </h1>
               </a>
-              <div class="slogan">Responsive HTML Theme</div>
+              <div class="slogan">บ้านและสวนResponsive HTML Theme</div>
             </div>
             
             <!--Search trigger -->
