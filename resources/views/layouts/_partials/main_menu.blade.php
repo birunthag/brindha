@@ -207,46 +207,46 @@
                         <a role="menuitem" href="{{ URL::route('sliderdefault') }}" tabindex="-1" class="menu-item">Default</a>
                         </li>
                     <li role="presentation">
-                        <a role="menuitem" href="slider-revolution-full.htm" tabindex="-1" class="menu-item">Full Width</a>
+                        <a role="menuitem" href="{{ URL::route('sliderfull') }}" tabindex="-1" class="menu-item">Full Width</a>
                     </li>
                     <li role="presentation">
-                        <a role="menuitem" href="slider-revolution-behind.htm" tabindex="-1" class="menu-item">Behind Navbar</a>
+                        <a role="menuitem" href="{{ URL::route('sliderbehide') }}" tabindex="-1" class="menu-item">Behind Navbar</a>
                     </li>
                     <li role="presentation">
-                        <a role="menuitem" href="slider-revolution-boxed.htm" tabindex="-1" class="menu-item">Boxed</a>
+                        <a role="menuitem" href="{{ URL::route('sliderboxed') }}" tabindex="-1" class="menu-item">Boxed</a>
                     </li>
                     <!--Backstretch Slider-->
                     <li role="presentation" class="dropdown-header">Backstretch</li>
                     <li role="presentation">
-                        <a role="menuitem" href="backstretch.htm" tabindex="-1" class="menu-item">Background Slideshow</a>
+                        <a role="menuitem" href="{{ URL::route('backstretch') }}" tabindex="-1" class="menu-item">Background Slideshow</a>
                     </li>
                     <li role="presentation">
-                        <a role="menuitem" href="backstretch-boxed.htm" tabindex="-1" class="menu-item">Boxed Background Slideshow</a>
+                        <a role="menuitem" href="{{ URL::route('backstretchboxed') }}" tabindex="-1" class="menu-item">Boxed Background Slideshow</a>
                     </li>
                     <!--Flexslider-->
                     <li role="presentation" class="dropdown-header">Flexslider</li>
                     <li role="presentation">
-                        <a role="menuitem" href="flexslider-default.htm" tabindex="-1" class="menu-item">Default</a>
+                        <a role="menuitem" href="{{ URL::route('flexslider_default') }}" tabindex="-1" class="menu-item">Default</a>
                     </li>
                     <li role="presentation">
-                        <a role="menuitem" href="flexslider-full.htm" tabindex="-1" class="menu-item">Full Width</a>
+                        <a role="menuitem" href="{{ URL::route('flexslider_full') }}" tabindex="-1" class="menu-item">Full Width</a>
                     </li>
                     <li role="presentation">
-                        <a role="menuitem" href="flexslider-behind.htm" tabindex="-1" class="menu-item">Behind Navbar</a>
+                        <a role="menuitem" href="{{ URL::route('flexslider_behide') }}" tabindex="-1" class="menu-item">Behind Navbar</a>
                     </li>
                     <li role="presentation">
-                        <a role="menuitem" href="flexslider-boxed.htm" tabindex="-1" class="menu-item">Boxed</a>
+                        <a role="menuitem" href="{{ URL::route('flexslider_boxed') }}" tabindex="-1" class="menu-item">Boxed</a>
                     </li>
                 </ul>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="elements.htm" tabindex="-1" class="menu-item">Theme Elements <i class="new-tag">Updated!</i></a>
+                <a role="menuitem" href="{{ URL::route('elements') }}" tabindex="-1" class="menu-item">Theme Elements <i class="new-tag">Updated!</i></a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="colours.htm" tabindex="-1" class="menu-item">Theme Colours</a>
+                <a role="menuitem" href="{{ URL::route('colours') }}" tabindex="-1" class="menu-item">Theme Colours</a>
             </li>
             <li role="presentation">
-                <a role="menuitem" href="bs-mobile-menu.htm" tabindex="-1" class="menu-item">Bootstrap Mobile Menu</a>
+                <a role="menuitem" href="{{ URL::route('bs_mobilemenu') }}" tabindex="-1" class="menu-item">Bootstrap Mobile Menu</a>
             </li>
         </ul>
     </li>

@@ -174,4 +174,65 @@ class AllofhomeController extends Controller {
 	{
 		return view('web.slider_default');	
 	}
+
+	public function sliderfull()
+	{
+		return view('web.slide_full');	
+	}
+
+	public function sliderbehide()
+	{
+		return view('web.slide_behide');	
+	}
+
+	public function sliderboxed()
+	{
+		return view('web.slide_boxed');	
+	}
+
+	public function backstretch()
+	{
+		return view('web.backstretch');	
+	}
+
+	public function backstretchboxed()
+	{
+		return view('web.backstretchboxed');	
+	}
+
+	public function flexslider_default()
+	{
+		return view('web.flexslider_default');	
+	}
+
+	public function flexslider_full()
+	{
+		return view('web.flexslider_full');	
+	}
+
+	public function flexslider_behide()
+	{
+		return view('web.flexslider_behide');	
+	}
+
+	public function flexslider_boxed()
+	{
+		return view('web.flexslider_boxed');	
+	}
+
+	public function elements()
+	{
+		return view('web.elements');	
+	}
+
+	public function colours()
+	{
+		return view('web.colours');	
+	}
+
+	public function bs_mobilemenu()
+	{
+		return view('web.bs_mobilemenu');	
+	}
 }
+

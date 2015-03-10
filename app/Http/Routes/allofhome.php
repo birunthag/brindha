@@ -155,3 +155,62 @@ Route::get('sliderdefault', [
 	'uses' => 'AllofhomeController@sliderdefault'
 ]);
 
+Route::get('sliderfull', [
+	'as' => 'sliderfull',
+	'uses' => 'AllofhomeController@sliderfull'
+]);
+
+Route::get('sliderbehide', [
+	'as' => 'sliderbehide',
+	'uses' => 'AllofhomeController@sliderbehide'
+]);
+
+Route::get('sliderboxed', [
+	'as' => 'sliderboxed',
+	'uses' => 'AllofhomeController@sliderboxed'
+]);
+
+Route::get('backstretch', [
+	'as' => 'backstretch',
+	'uses' => 'AllofhomeController@backstretch'
+]);
+
+Route::get('backstretchboxed', [
+	'as' => 'backstretchboxed',
+	'uses' => 'AllofhomeController@backstretchboxed'
+]);
+
+Route::get('flexslider_default', [
+	'as' => 'flexslider_default',
+	'uses' => 'AllofhomeController@flexslider_default'
+]);
+
+Route::get('flexslider_full', [
+	'as' => 'flexslider_full',
+	'uses' => 'AllofhomeController@flexslider_full'
+]);
+
+Route::get('flexslider_behide', [
+	'as' => 'flexslider_behide',
+	'uses' => 'AllofhomeController@flexslider_behide'
+]);
+
+Route::get('flexslider_boxed', [
+	'as' => 'flexslider_boxed',
+	'uses' => 'AllofhomeController@flexslider_boxed'
+]);
+
+Route::get('elements', [
+	'as' => 'elements',
+	'uses' => 'AllofhomeController@elements'
+]);
+
+Route::get('colours', [
+	'as' => 'colours',
+	'uses' => 'AllofhomeController@colours'
+]);
+
+Route::get('bs_mobilemenu', [
+	'as' => 'bs_mobilemenu',
+	'uses' => 'AllofhomeController@bs_mobilemenu'
+]);

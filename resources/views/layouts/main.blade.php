@@ -167,5 +167,6 @@
 
 <!--Custom scripts mainly used to trigger libraries/plugins -->
 <script src={{ asset('js/script.min.js') }}></script>
+@yield('jsbody')
 </body>
 </html>
