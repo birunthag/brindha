@@ -19,5 +19,5 @@
       <button type="button" class="btn btn-primary">Login</button>
       | <a href="#">Forgotten Password?</a> 
     </form>
-  </div>
+</div>
 @stop

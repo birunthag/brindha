@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
+{{ \Auth::user()->username; }}
 <div class="container">
     <h2 class="title-divider">
       <span>Company <span class="de-em">Blog</span></span>

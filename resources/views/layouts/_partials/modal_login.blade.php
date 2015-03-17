@@ -21,16 +21,19 @@
           </form>
         </div>
         <div class="modal-footer">
-            <div class="form-group">
-            <!--@todo: replace with company social media details-->
-                <a class="btn btn-block btn-social btn-twitter">
-                    <i class="fa fa-twitter"></i> Twitter
-                </a>
-                <a class="btn btn-block btn-social btn-facebook">
-                    <i class="fa fa-facebook"></i> Facebook
-                </a>
-            </div>
-
+            <form class="form-inline text-center">
+                <div class="form-group">
+                <!--@todo: replace with company social media details-->
+                    <a class="btn btn-block btn-social btn-twitter">
+                        <i class="fa fa-twitter"></i> Twitter
+                    </a>
+                </div>
+                <div class="form-group">
+                    <a class="btn btn-block btn-social btn-facebook">
+                        <i class="fa fa-facebook"></i> Facebook
+                    </a>
+                </div>
+            </form>
         </div>
 
         <div class="modal-footer">

@@ -20,6 +20,27 @@ Route::get('login', [
 	'uses' => 'AllofhomeController@login'
 ]);
 
+
+Route::get('fblogin', [
+	'as' => 'fblogin',
+	'uses' => 'Auth\AuthController@facebooklogin'
+]);
+
+Route::get('fblogged', [
+	'as' => 'fblogged',
+	'uses' => 'Auth\AuthController@facebooklogined'
+]);
+
+Route::get('twlogged', [
+	'as' => 'twlogged',
+	'uses' => 'Auth\AuthController@twlogged'
+]);
+
+Route::get('twlogin', [
+	'as' => 'twlogin',
+	'uses' => 'SocialLoginController@TWlogin'
+]);
+
 Route::get('signup', [
 	'as' => 'signup',
 	'uses' => 'AllofhomeController@signup'

@@ -51,6 +51,11 @@ class AllofhomeController extends Controller {
 		return view('web.index');
 	}
 
+	public function login()
+	{
+		return view('web.login');
+	}
+
 	public function about()
 	{
 		return view('web.about');
@@ -126,21 +131,9 @@ class AllofhomeController extends Controller {
 		return view('web.features');
 	}
 
-	public function login()
-	{
-		if (\Input::has('code'))
-	    {
-	        $user = $this->fb->user();
-
-	        return var_dump($user);
-	    } else {
-	        return $this->fb->redirect();
-	    }
-		// return view('web.login');
-	}
-
 	public function signup()
 	{
+		$user = \Socialize::with('facebook')->user();
 		return view('web.signup');
 	}
 
@@ -156,7 +149,14 @@ class AllofhomeController extends Controller {
 
 	public function blog()
 	{
-		return view('web.blog');	
+		if(\Auth::check())
+		{
+			echo "test";//return view('web.blog');
+		}
+		else 
+		{
+			return redirect('/login');
+		}
 	}
 
 	public function blogleft()
