@@ -23,6 +23,9 @@
     <!-- Font Awesome -->
     <link href="{{ asset('js/lib/fontawesome/css/font-awesome.min.css') }}" rel="stylesheet">
     
+    <!-- Bootstrap Social -->
+    <link href="{{ asset('js/lib/bootstrap-social/bootstrap-social.min.css') }}" rel="stylesheet">
+    
     <!-- Plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
     <!-- Plugin: animate.css (animated effects) - http://daneden.github.io/animate.css/ -->
     <link href="{{ asset('plugins/animate/animate.css') }}" rel="stylesheet">
@@ -95,7 +98,7 @@
               <a class="navbar-brand" href="{{ URL::to('/') }}" title="Home">
                 <h1>
                   <!-- <span>AllOf</span>Home<span>.</span> -->
-                  <img src="img/logo.png">
+                  <img src="img/logo_v2.png">
                 </h1>
               </a>
               <div class="slogan">บ้านและสวนResponsive HTML Theme</div>

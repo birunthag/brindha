@@ -42,5 +42,11 @@
 	},
 	"config": {
 		"preferred-install": "dist"
-	}
+	},
+	"repositories": [
+    	{
+        	"type": "composer",
+        	"url": "https://packages.cartalyst.com"
+    	}
+	]
 }

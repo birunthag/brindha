@@ -15,6 +15,7 @@ class AllofhomeController extends Controller {
 	|
 	*/
 
+	public $fb;
 	/**
 	 * Create a new controller instance.
 	 *
@@ -22,6 +23,7 @@ class AllofhomeController extends Controller {
 	 */
 	public function __construct()
 	{
+		$this->fb = \Socialize::with("facebook");
 		$this->middleware('guest');
 	}
 
@@ -31,7 +33,21 @@ class AllofhomeController extends Controller {
 	 * @return Response
 	 */
 	public function index()
-	{
+	{	
+		// if (\Input::has('code'))
+	 //    {
+	 //        $user = $this->fb->user();
+
+	 //        // var_dump($this->fb->user());
+	 //        print 'yes';exit;
+	 //    } 
+		// $user = \Socialize::with('facebook')->user();
+		// echo $this->fb->user()->getEmail();
+		// $user->getNickname();
+		// $user->getName();
+		// echo $user->getEmail();
+		// $user->getAvatar();
+
 		return view('web.index');
 	}
 
@@ -112,7 +128,15 @@ class AllofhomeController extends Controller {
 
 	public function login()
 	{
-		return view('web.login');
+		if (\Input::has('code'))
+	    {
+	        $user = $this->fb->user();
+
+	        return var_dump($user);
+	    } else {
+	        return $this->fb->redirect();
+	    }
+		// return view('web.login');
 	}
 
 	public function signup()

@@ -33,5 +33,9 @@ return [
 		'model'  => 'User',
 		'secret' => '',
 	],
-
+	'facebook' => [
+	    'client_id' => getenv('FB_ID'),
+	    'client_secret' => getenv('FB_Secret'),
+	    'redirect' => 'http://localhost/allofhome/public/',
+	]
 ];

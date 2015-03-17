@@ -27,9 +27,9 @@
             <a href="#signup-modal" class="btn btn-link signup" data-toggle="modal">Sign Up</a>
             <!--</li>-->
             <a href="#login-modal" class="btn btn-link login" data-toggle="modal">Login</a> 
-            <div class="btn-group language-menu">
+            <!-- <div class="btn-group language-menu"> -->
                 <!--language menu-->
-                <a href="#en" 
+                <!--<a href="#en" 
                     class="btn btn-link dropdown-toggle" 
                     data-toggle="dropdown">
                     <span class="flag-icon flag-icon-gb"></span>
@@ -48,7 +48,7 @@
                       <a href="#se" class="lang-se"><span class="flag-icon flag-icon-se"></span> Swedish</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

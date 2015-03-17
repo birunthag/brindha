@@ -21,6 +21,19 @@
           </form>
         </div>
         <div class="modal-footer">
+            <div class="form-group">
+            <!--@todo: replace with company social media details-->
+                <a class="btn btn-block btn-social btn-twitter">
+                    <i class="fa fa-twitter"></i> Twitter
+                </a>
+                <a class="btn btn-block btn-social btn-facebook">
+                    <i class="fa fa-facebook"></i> Facebook
+                </a>
+            </div>
+
+        </div>
+
+        <div class="modal-footer">
           <small>Not a member? <a href="#" class="signup">Sign up now!</a></small>
           <br />
           <small><a href="#">Forgotten password?</a></small>

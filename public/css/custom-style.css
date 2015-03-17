@@ -73,13 +73,80 @@
  *--------------------------------------------------
  */
 
-/*@font-face {
-    font-family: 'WDB_Bangna';
-    src: url('../fonts/wbd_bangna/WDB_Bangna.ttf') format('truetype');
+
+/*
+  Add by Admin
+  License: GNU General Public License v2.0
+  License URI: license.txt
+*/
+
+@font-face {
+font-family: "Thai Sans Neue Fixed";
+  src: url("http://www.macstroke.com/wp-content/uploads/fonts/ThaiSansNeue-fixed-height/extralight.eot");
 }
 
-body,
+@font-face {
+font-family: "Thai Sans Neue Fixed";
+  src:  url("http://www.macstroke.com/wp-content/uploads/fonts/ThaiSansNeue-fixed-height/light.woff") format("woff"),
+    url("http://www.macstroke.com/wp-content/uploads/fonts/ThaiSansNeue-fixed-height/light.svg#ThaiSansNeue-Light") format("svg"),
+    url("http://www.macstroke.com/wp-content/uploads/fonts/ThaiSansNeue-fixed-height/light.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Roboto Light";
+  src:  url("http://www.macstroke.com/wp-content/uploads/fonts/Roboto/Light.eot");
+}
+
+@font-face {
+font-family: "Roboto Light";
+  src:  url("http://www.macstroke.com/wp-content/uploads/fonts/Roboto/Light.woff") format("woff"),
+    url("http://www.macstroke.com/wp-content/uploads/fonts/Roboto/Light.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Roboto Regular";
+  src: url("http://www.macstroke.com/wp-content/uploads/fonts/Roboto/Regular.eot");
+}
+
+@font-face {
+font-family: "Roboto Regular";
+  src:  url("http://www.macstroke.com/wp-content/uploads/fonts/Roboto/Regular.woff") format("woff"),
+    url("http://www.macstroke.com/wp-content/uploads/fonts/Roboto/Regular.ttf") format("truetype");
+}
+
+body,h1, h2, h3, h4, h5, h6, h7,
 html {
-  font-family: "WDB_Bangna";
-  background: #ffffff;
-}*/
+  font-family: "Helvetica Neue", "Roboto Light", "Sukhumvit Set", "Thai Sans Neue Fixed" !important;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.84em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.62em;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 1.31em;
+}
+
+h6 {
+    font-size: 1.12em;
+}
+
+p {
+    margin: 1em 4px;
+}
