@@ -40,7 +40,7 @@ return [
 	],
 	'twitter' => [
 		'client_id' => 'lNWoQ1Oo3ivZ85eS8YE3hoIRQ',
-		'client_secret' => 'BhQvA3CR4oxCpt9tVSsVTP20iZajuBLidHpv9EK59d01ZXEMfQ'
+		'client_secret' => 'BhQvA3CR4oxCpt9tVSsVTP20iZajuBLidHpv9EK59d01ZXEMfQ',
 		'owner_id' => '3092995340',
 		'owner' => 'ThaiAllofhome'
 	]
